@@ -505,6 +505,7 @@ public class EditBooking extends javax.swing.JDialog {
             cmbRoom.setEnabled(false);
         } else {
             edit.setCheckOut(dcCheckout.getDate());
+            edit.setCheckIn(dcCheckIn.getDate());
             updateAvailableRoom();
             cmbRoom.setEnabled(true);
             lblCheckOut.setText("");
